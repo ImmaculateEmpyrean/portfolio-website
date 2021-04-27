@@ -3,7 +3,7 @@ $maximum-red:        rgba(222, 26, 26, 1);
 $cultured:           rgba(246, 244, 243, 1);
 $blue-munsell:       rgba(4, 139, 168, 1);
 $blue-crayola:       rgba(55, 114, 255, 1);
-$fulvous:            rgba(215, 133, 33, 1);
+$deep-champagne:     rgba(242, 211, 152, 1);
 $radical-red:        rgba(255, 53, 98, 1);
 
 //this is the main theme color of the website
@@ -17,7 +17,7 @@ $color4: $cultured; //light
 
 //alternative theme color
 $color5: $maximum-red; //dark
-$color6: $radical-red; //dark
+$color6: $radical-red; //light
 
 //odd color 
-$color7: $fulvous; //odd goldish color?
+$color7: $deep-champagne; //odd goldish color looks good on color6 for some reason?
