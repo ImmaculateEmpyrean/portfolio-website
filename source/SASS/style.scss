@@ -1,6 +1,10 @@
 @import "base.scss";
 
 html{
-    background: black;
-    color: white;
+    background: $color1;
+    color: $color4;
+
+    font-family: 'Work Sans';
+    font-weight: bolder;
+    font-size: larger;
 }
