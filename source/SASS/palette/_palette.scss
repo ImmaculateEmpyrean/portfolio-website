@@ -1,0 +1,23 @@
+$onyx:               rgba(57, 61, 63, 1);
+$maximum-red:        rgba(222, 26, 26, 1);
+$deep-champagne:     rgba(242, 211, 152, 1);
+$steel-teal:         rgba(98, 146, 158, 1);
+$dark-electric-blue: rgba(84, 106, 123, 1);
+$fulvous:            rgba(215, 133, 33, 1);
+$radical-red:        rgba(255, 53, 98, 1);
+
+//this is the main theme color of the website
+$color1: $dark-electric-blue;
+//a lighter version of the meain theme
+$color2: $steel-teal;
+
+//standrad Dark and Light Colors
+$color3: $onyx; //dark
+$color4: $deep-champagne; //light
+
+//alternative theme color
+$color5: $maximum-red; //dark
+$color6: $radical-red; //dark
+
+//odd color 
+$color7: $fulvous; //odd goldish color?
