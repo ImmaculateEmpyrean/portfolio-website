@@ -8,3 +8,12 @@
 @import "icons/icons";
 
 @import "font/fontBase";
+
+html{
+    background: $color3;
+    color: $color4;
+
+    font-family: 'Work Sans';
+    font-weight: normal;
+    font-size: larger;
+}

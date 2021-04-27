@@ -1,10 +1,65 @@
 @import "base.scss";
 
-html{
-    background: $color1;
-    color: $color4;
+.contentIntroduction{
+    background: $color1;   
+}
 
-    font-family: 'Work Sans';
-    font-weight: bolder;
-    font-size: larger;
+.wrapper{
+    display: block;
+    width: 1000px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    border: 1px solid red; //for debugging purposes
+}
+
+.grid{
+    display: block;
+    font-size: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.left{
+    text-align: right;
+}
+.right{
+    text-align: left;
+}
+
+.col{
+    display: inline-block;
+    width: 100%;
+
+    font-size: $font-normal;
+    &>h1{
+      margin: 0;
+      padding: $spacing-normal 0 0 0;
+    }
+    &>h2{
+        margin: 0;
+        padding: $spacing-small;
+        font-weight: normal;
+    }
+
+    a{
+        display: inline-block;
+        box-sizing: border-box;
+        
+        margin: $spacing-normal;
+        padding: $spacing-normal;
+        border: 1px solid red;  
+        border-radius: $spacing-larger;
+
+        &:hover{
+            background-color: red;
+        }
+    }
+
+    &.half{
+        width: 50%;
+    }
+    &.quarter{
+        width: 25%;
+    }
 }

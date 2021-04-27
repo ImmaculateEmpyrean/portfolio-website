@@ -6707,11 +6707,70 @@ readers do not read off random characters that represent icons */
   font-display: swap;
 }
 html {
-  background: #546a7b;
+  background: #393d3f;
   color: #f2d398;
   font-family: "Work Sans";
-  font-weight: bolder;
+  font-weight: normal;
   font-size: larger;
+}
+
+.contentIntroduction {
+  background: #546a7b;
+}
+
+.wrapper {
+  display: block;
+  width: 1000px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.grid {
+  display: block;
+  font-size: 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.left {
+  text-align: right;
+}
+
+.right {
+  text-align: left;
+}
+
+.col {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+}
+.col > h1 {
+  margin: 0;
+  padding: 24px 0 0 0;
+}
+.col > h2 {
+  margin: 0;
+  padding: 16px;
+  font-weight: normal;
+}
+.col a {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 24px;
+  padding: 24px;
+  border: 1px solid red;
+  border-radius: 48px;
+}
+.col a:hover {
+  background-color: red;
+}
+.col.half {
+  width: 50%;
+}
+.col.quarter {
+  width: 25%;
 }
 
 /*# sourceMappingURL=style.css.map */
