@@ -6765,6 +6765,7 @@ html {
   width: 1000px;
   box-sizing: border-box;
   margin: 0 auto;
+  border: 1px solid red;
 }
 
 .grid {
@@ -6775,6 +6776,7 @@ html {
 }
 
 .col {
+  vertical-align: top;
   display: inline-block;
   width: 100%;
   font-size: 16px;
@@ -6810,12 +6812,34 @@ html {
 }
 .col.quarter {
   width: 25%;
+  padding: 0 9.6px;
+  box-sizing: border-box;
 }
 .col.left {
   text-align: right;
 }
 .col.right {
   text-align: left;
+}
+
+.publishGameColumn {
+  font-size: 48px;
+  margin: 24px 0;
+}
+
+.publishGameEngineColumn {
+  font-size: 48px;
+  margin: 24px 0;
+}
+
+.publishWebsiteColumn {
+  font-size: 48px;
+  margin: 24px 0;
+}
+
+.publishWindowsApps {
+  font-size: 48px;
+  margin: 24px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
