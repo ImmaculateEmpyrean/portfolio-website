@@ -1,4 +1,8 @@
 @import "settings/base-settings";
-@import "palette/palette";
 
+@import "base/breakpoints";
+@import "base/mixins";
+@import "base/normalize";
+
+@import "palette/palette";
 @import "icons/icons";
