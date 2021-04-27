@@ -1,7 +1,10 @@
 @import "base.scss";
 
-.contentIntroduction{
+.yin{
     background: $color1;   
+}
+.yang{
+    background: black;
 }
 
 .wrapper{
@@ -10,7 +13,7 @@
     box-sizing: border-box;
     margin: 0 auto;
 
-    border: 1px solid red; //for debugging purposes
+    //border: 1px solid red; //for debugging purposes
 }
 
 .grid{

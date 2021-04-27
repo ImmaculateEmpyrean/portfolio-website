@@ -6756,8 +6756,12 @@ html {
   font-size: larger;
 }
 
-.contentIntroduction {
+.yin {
   background: #048ba8;
+}
+
+.yang {
+  background: black;
 }
 
 .wrapper {
@@ -6765,7 +6769,6 @@ html {
   width: 1000px;
   box-sizing: border-box;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .grid {
