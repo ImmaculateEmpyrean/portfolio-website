@@ -6708,14 +6708,14 @@ readers do not read off random characters that represent icons */
 }
 html {
   background: #393d3f;
-  color: #f2d398;
+  color: #f6f4f3;
   font-family: "Work Sans";
   font-weight: normal;
   font-size: larger;
 }
 
 .contentIntroduction {
-  background: #546a7b;
+  background: #048ba8;
 }
 
 .wrapper {
@@ -6723,7 +6723,6 @@ html {
   width: 1000px;
   box-sizing: border-box;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .grid {
@@ -6758,13 +6757,14 @@ html {
 .col a {
   display: inline-block;
   box-sizing: border-box;
-  margin: 24px;
+  margin: 16px;
   padding: 24px;
-  border: 1px solid red;
+  border: 1px solid #ff3562;
   border-radius: 48px;
 }
-.col a:hover {
-  background-color: red;
+.col a:hover, .col a:focus {
+  background-color: #ff3562;
+  color: #f6f4f3;
 }
 .col.half {
   width: 50%;

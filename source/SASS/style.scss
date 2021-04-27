@@ -10,7 +10,7 @@
     box-sizing: border-box;
     margin: 0 auto;
 
-    border: 1px solid red; //for debugging purposes
+    //border: 1px solid red; //for debugging purposes
 }
 
 .grid{
@@ -46,14 +46,16 @@
         display: inline-block;
         box-sizing: border-box;
         
-        margin: $spacing-normal;
+        margin: $spacing-small;
         padding: $spacing-normal;
-        border: 1px solid red;  
+        border: 1px solid $color6;  
         border-radius: $spacing-larger;
 
-        &:hover{
-            background-color: red;
-        }
+       @include hocus()
+       {
+           background-color: $color6;
+           color: $color4;
+       }
     }
 
     &.half{

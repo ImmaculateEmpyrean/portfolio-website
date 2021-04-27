@@ -1,19 +1,19 @@
 $onyx:               rgba(57, 61, 63, 1);
 $maximum-red:        rgba(222, 26, 26, 1);
-$deep-champagne:     rgba(242, 211, 152, 1);
-$steel-teal:         rgba(98, 146, 158, 1);
-$dark-electric-blue: rgba(84, 106, 123, 1);
+$cultured:           rgba(246, 244, 243, 1);
+$blue-munsell:       rgba(4, 139, 168, 1);
+$blue-crayola:       rgba(55, 114, 255, 1);
 $fulvous:            rgba(215, 133, 33, 1);
 $radical-red:        rgba(255, 53, 98, 1);
 
 //this is the main theme color of the website
-$color1: $dark-electric-blue;
-//a lighter version of the meain theme
-$color2: $steel-teal;
+$color1: $blue-munsell;
+//a lighter version of the main theme
+$color2: $blue-crayola;
 
 //standrad Dark and Light Colors
 $color3: $onyx; //dark
-$color4: $deep-champagne; //light
+$color4: $cultured; //light
 
 //alternative theme color
 $color5: $maximum-red; //dark
