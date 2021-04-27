@@ -9,8 +9,10 @@
 
 @import "font/fontBase";
 
+@import "animation/animationBase";
+
 html{
-    background: $color3;
+    background: black;
     color: $color4;//white;
 
     font-family: 'Work Sans';

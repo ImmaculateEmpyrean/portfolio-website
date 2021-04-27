@@ -6706,8 +6706,50 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-display: swap;
 }
+@keyframes bubbleRight {
+  0%, 100% {
+    rotate: 0deg;
+    transform: skew(0deg, 0deg);
+  }
+  25% {
+    rotate: 5deg;
+    transform: skew(5deg, 5deg);
+  }
+  75% {
+    rotate: -5deg;
+    transform: skew(-5deg, -5deg);
+  }
+}
+@keyframes growShrink {
+  0%, 100% {
+    padding: 24px;
+    margin: 36px;
+    background: #048ba8;
+    transform: translateY(10px);
+  }
+  50% {
+    padding: 36px;
+    margin: 24px;
+    background: #ff3562;
+    transform: translateY(10px);
+  }
+}
+@keyframes bubbleLeft {
+  0%, 100% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: -5deg;
+  }
+  50% {
+    rotate: 0deg;
+  }
+  75% {
+    rotate: 5deg;
+  }
+}
 html {
-  background: #393d3f;
+  background: black;
   color: #f6f4f3;
   font-family: "Work Sans";
   font-weight: normal;
@@ -6732,14 +6774,6 @@ html {
   text-transform: capitalize;
 }
 
-.left {
-  text-align: right;
-}
-
-.right {
-  text-align: left;
-}
-
 .col {
   display: inline-block;
   width: 100%;
@@ -6754,23 +6788,34 @@ html {
   padding: 16px;
   font-weight: normal;
 }
-.col a {
+.col > a {
   display: inline-block;
   box-sizing: border-box;
   margin: 16px;
   padding: 24px;
-  border: 1px solid #ff3562;
+  border: 1px solid #f6f4f3;
   border-radius: 48px;
-}
-.col a:hover, .col a:focus {
-  background-color: #ff3562;
+  text-decoration: none;
   color: #f2d398;
+}
+.col > a:visited {
+  color: #f2d398;
+}
+.col > a:hover, .col > a:focus {
+  background-color: #ff3562;
+  color: #f6f4f3;
 }
 .col.half {
   width: 50%;
 }
 .col.quarter {
   width: 25%;
+}
+.col.left {
+  text-align: right;
+}
+.col.right {
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
