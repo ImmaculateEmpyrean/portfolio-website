@@ -20,3 +20,23 @@
     font-size: $spacing-larger;
     margin: $spacing-normal 0;
 }
+
+textarea{
+    width: 100%;
+    height: auto;
+
+    background: black;
+    color: $color7;
+
+    font-family: sans-serif;
+    font-size: $font-normal;
+    text-transform: capitalize;
+
+    border: 2px solid $color6;
+    border-radius:$spacing-larger;
+
+    padding: $spacing-normal;
+    margin: $spacing-normal;
+
+    resize: none;
+}
