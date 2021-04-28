@@ -6459,4 +6459,19 @@ textarea {
   resize: none;
 }
 
+.sendButton {
+  width: 100%;
+  background: transparent;
+  color: #048ba8;
+  border: none;
+  margin: 16px 0;
+  padding: 9.6px;
+  font-size: 32px;
+  text-align: right;
+}
+.sendButton:hover, .sendButton:focus {
+  background-color: #de1a1a;
+  color: #f6f4f3;
+}
+
 /*# sourceMappingURL=style.css.map */
