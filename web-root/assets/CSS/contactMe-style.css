@@ -6439,24 +6439,19 @@ textarea {
   font-weight: normal;
 }
 
-.publishGameColumn {
-  font-size: 48px;
-  margin: 24px 0;
+.sendButton {
+  width: 100%;
+  background: transparent;
+  color: #048ba8;
+  border: none;
+  margin: 16px 0;
+  padding: 9.6px;
+  font-size: 32px;
+  text-align: right;
+}
+.sendButton:hover, .sendButton:focus {
+  background-color: #de1a1a;
+  color: #f6f4f3;
 }
 
-.publishGameEngineColumn {
-  font-size: 48px;
-  margin: 24px 0;
-}
-
-.publishWebsiteColumn {
-  font-size: 48px;
-  margin: 24px 0;
-}
-
-.publishWindowsApps {
-  font-size: 48px;
-  margin: 24px 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=contactMe-style.css.map */

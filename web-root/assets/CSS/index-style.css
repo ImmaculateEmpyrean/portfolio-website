@@ -6439,24 +6439,4 @@ textarea {
   font-weight: normal;
 }
 
-.publishGameColumn {
-  font-size: 48px;
-  margin: 24px 0;
-}
-
-.publishGameEngineColumn {
-  font-size: 48px;
-  margin: 24px 0;
-}
-
-.publishWebsiteColumn {
-  font-size: 48px;
-  margin: 24px 0;
-}
-
-.publishWindowsApps {
-  font-size: 48px;
-  margin: 24px 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index-style.css.map */

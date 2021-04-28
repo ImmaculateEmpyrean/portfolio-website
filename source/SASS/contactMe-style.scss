@@ -1,0 +1,22 @@
+@import "_base.scss";
+@import "viola/viola.scss";
+
+.sendButton
+{
+    width: 100%;
+    background: transparent;
+    color: $color1;
+    border: none;
+
+    margin: $spacing-small 0;
+    padding: $spacing-smaller;
+
+    font-size: $font-larger;
+    text-align: right;
+
+    @include hocus{
+        background-color: $color5;
+        color: $color4;
+    }
+}
+
