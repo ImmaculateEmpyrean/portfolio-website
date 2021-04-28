@@ -1,0 +1,15 @@
+$wrapperWidth: 1000px;
+
+//the wrapper centers the content on the screen..
+.wrapper{
+    display: block;
+    width: $wrapperWidth;
+    margin: 0 auto;
+}
+
+//the grid system is used to display stuff inside the website in question..
+.grid{
+    display: block;
+    font-size: 0;
+    text-align: center;
+}

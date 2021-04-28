@@ -1,0 +1,26 @@
+.col{
+    vertical-align: top;
+    
+    //this must be here as the grid makes the font size zero and it is a pain to fix it every time
+    font-size: $font-normal;
+
+    display: inline-block;
+    width: 100%;
+    
+    &.one-half{
+        width: 50%;
+    }
+    &.one-quarter{
+        width: 25%;
+        padding: 0 $spacing-smaller;
+        box-sizing: border-box;
+    }
+
+    &.left{
+        text-align: right;
+    }
+    &.right{
+        text-align: left;
+    }
+}
+

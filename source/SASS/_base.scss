@@ -12,10 +12,10 @@
 @import "animation/animationBase";
 
 html{
-    background: black;
-    color: $color4;//white;
+    background: $color3;
+    color: $color4;
 
     font-family: 'Work Sans';
     font-weight: normal;
-    font-size: larger;
+    font-size: $font-normal;
 }

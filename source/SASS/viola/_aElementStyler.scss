@@ -1,0 +1,22 @@
+.rounded-fancy-link
+{
+    display: inline-block;
+    box-sizing: border-box;
+    
+    margin: $spacing-small;
+    padding: $spacing-normal;
+    border: 1px solid $color4;  
+    border-radius: $spacing-larger;
+
+    text-decoration: none;
+    color: $color7;
+
+    &:visited{
+        color: $color7;
+    }
+   @include hocus()
+   {
+       background-color: $color6;
+       color: $color4;
+   }
+}
