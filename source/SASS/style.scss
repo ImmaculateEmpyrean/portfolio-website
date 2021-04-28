@@ -22,9 +22,9 @@
 }
 
 textarea{
+    box-sizing: border-box;
     width: 100%;
-    height: auto;
-
+    
     background: black;
     color: $color7;
 
@@ -36,7 +36,7 @@ textarea{
     border-radius:$spacing-larger;
 
     padding: $spacing-normal;
-    margin: $spacing-normal;
+    //margin: $spacing-normal;
 
     resize: none;
 }

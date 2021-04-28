@@ -6390,10 +6390,10 @@ html {
   box-sizing: border-box;
 }
 .col.left {
-  text-align: right;
+  text-align: left;
 }
 .col.right {
-  text-align: left;
+  text-align: right;
 }
 
 .rounded-fancy-link {
@@ -6446,8 +6446,8 @@ html {
 }
 
 textarea {
+  box-sizing: border-box;
   width: 100%;
-  height: auto;
   background: black;
   color: #f2d398;
   font-family: sans-serif;
@@ -6456,7 +6456,6 @@ textarea {
   border: 2px solid #ff3562;
   border-radius: 48px;
   padding: 24px;
-  margin: 24px;
   resize: none;
 }
 
