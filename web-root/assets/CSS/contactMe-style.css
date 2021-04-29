@@ -6369,6 +6369,16 @@ textarea {
   resize: none;
 }
 
+input {
+  box-sizing: border-box;
+  border: 1px solid #ff3562;
+  border-radius: 36px;
+  background: black;
+  color: #f2d398;
+  font-family: "arial", "Work Sans";
+  padding: 9.6px;
+}
+
 .yin {
   background: #048ba8;
 }
@@ -6394,6 +6404,7 @@ textarea {
   font-size: 16px;
   display: inline-block;
   width: 100%;
+  margin: 24px 0;
 }
 .col.one-half {
   width: 50%;
@@ -6462,10 +6473,13 @@ textarea {
   opacity: 1;
 }
 
+.spacer-normal {
+  padding: 24px;
+}
+
 .sendButton {
   width: 100%;
   padding: 9.6px;
-  margin: 24px 0;
   font-size: 32px;
   text-align: right;
   color: #048ba8;
@@ -6477,18 +6491,33 @@ textarea {
   color: #f6f4f3;
 }
 
-input {
-  box-sizing: border-box;
-  border: 1px solid #ff3562;
-  border-radius: 36px;
-  background: black;
-  color: #f2d398;
-  font-family: "arial", "Work Sans";
-  padding: 9.6px;
+input[type=radio]:checked {
+  box-shadow: 0 0 0 3px #ff3562;
+  color: red;
+}
+input[type=radio]:hover {
+  background: red;
+  color: red;
 }
 
-input[type=radio] {
-  padding: 0;
+.mailDisplay {
+  font-size: 20.8px;
+}
+.mailDisplay i {
+  font-size: 32px;
+  display: inline;
+  border: 1px solid red;
+}
+.mailDisplay h2 {
+  display: inline;
+  border: 1px solid red;
+}
+.mailDisplay img {
+  display: inline;
+  box-sizing: border-box;
+  border: 2px solid red;
+  width: 48px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=contactMe-style.css.map */

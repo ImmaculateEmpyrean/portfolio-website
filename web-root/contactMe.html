@@ -15,15 +15,18 @@
                 <div class="col">
                     <h1>contact me page</h1>
                 </div>
-                <div class="col one-half">
+                <div class="col mailDisplay left">
                     <i class="fas fa-envelope"></i>
-                    <h2>email : immaculateempyrean@gmail.com</h2>
-                </div>
-                <div class="col one-half">
+                    <h2>immaculateempyrean@gmail.com</h2>
+
+                    <div></div>
+
                     <i class="fab fa-discord"></i>
-                    <img src="assets/images/discordLogo.png" alt="" width="300px">
                     <h2>Empyrean#8671</h2>
+                    <img src="assets/images/discordLogo.png" alt="" width="300px">
+
                 </div>
+                
             </div>   
         </div>
     </div>
@@ -31,27 +34,28 @@
     <div class="yang">
         <div class="wrapper">
             <div class="grid">
+                <div class="col left">
+                    <h1>leave me a message</h1>
+                </div>
                 <div class="col">
                     <textarea name="han" id="messageContact" cols="15" rows="15"></textarea>
                 </div>
                 <div class="col one-half left">
                     <input type="radio" id="radioPublicMessage" name="broadcast" value="global">
                     <label for="radioPublicMessage">Public Message</label>
+                    <span class="spacer-normal"></span>
+                    <input type="radio" id="radioPrivateMessage" name="broadcast" value="Private">
+                    <label for="radioPrivateMessage">Private Message</label>
                 </div>
                 <div class="col one-half right">
                     <label for="nameEntryField">Sender Name : </label>
                     <input type="text" id="nameEntryField">
-                </div>
-                <div class="col one-half left">
-                    <input type="radio" id="radioPrivateMessage" name="broadcast" value="Private">
-                    <label for="radioPrivateMessage">Private Message</label>
-                </div>
-               <div class="col one-half right">
+                    <div></div>
                     <label for="emailEntryField">Sender Email : </label>
                     <input type="email" id="emailEntryField">
-               </div>
+                </div>
                <div class="col">
-                    <button class="sendButton"><i class="fas fa-paper-plane"></i></button>
+                    <button class="sendButton"><h2>Send</h2><i class="fas fa-paper-plane"></i></button>
                </div>
             </div>
         </div>

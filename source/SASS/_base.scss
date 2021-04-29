@@ -38,3 +38,16 @@ textarea{
     
     resize: none;
 }
+
+input
+{
+   box-sizing: border-box; 
+   border: 1px solid $color6;
+   border-radius: $spacing-large;
+
+   background: $color3;
+   color: $color7;
+
+   font-family: "arial","Work Sans";
+   padding: $spacing-smaller;
+}

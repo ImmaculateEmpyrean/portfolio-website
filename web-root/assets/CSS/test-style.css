@@ -6477,24 +6477,32 @@ input {
   padding: 24px;
 }
 
-.publishGameColumn {
-  font-size: 48px;
-  margin: 24px 0;
+.box1 {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: -15px;
+  margin-left: 20px;
 }
 
-.publishGameEngineColumn {
-  font-size: 48px;
-  margin: 24px 0;
+.box2 {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
-.publishWebsiteColumn {
-  font-size: 48px;
-  margin: 24px 0;
-}
-
-.publishWindowsApps {
-  font-size: 48px;
-  margin: 24px 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=test-style.css.map */

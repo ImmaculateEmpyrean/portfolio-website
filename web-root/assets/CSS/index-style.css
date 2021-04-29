@@ -6369,6 +6369,16 @@ textarea {
   resize: none;
 }
 
+input {
+  box-sizing: border-box;
+  border: 1px solid #ff3562;
+  border-radius: 36px;
+  background: black;
+  color: #f2d398;
+  font-family: "arial", "Work Sans";
+  padding: 9.6px;
+}
+
 .yin {
   background: #048ba8;
 }
@@ -6394,6 +6404,7 @@ textarea {
   font-size: 16px;
   display: inline-block;
   width: 100%;
+  margin: 24px 0;
 }
 .col.one-half {
   width: 50%;
@@ -6460,6 +6471,10 @@ textarea {
   margin: 0;
   transition: 0s;
   opacity: 1;
+}
+
+.spacer-normal {
+  padding: 24px;
 }
 
 /*# sourceMappingURL=index-style.css.map */

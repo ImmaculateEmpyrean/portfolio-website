@@ -7,8 +7,7 @@
 
    width: 100%;
    padding: $spacing-smaller;
-   margin: $spacing-normal 0;
-
+ 
    font-size: $font-larger;
    text-align: right;
    color: $color1;
@@ -23,21 +22,38 @@
    }
 }
 
-input
-{
-   box-sizing: border-box; 
-   border: 1px solid $color6;
-   border-radius: $spacing-large;
-
-   background: $color3;
-   color: $color7;
-
-   font-family: "arial","Work Sans";
-   padding: $spacing-smaller;
-}
-
 input[type=radio]
 {
-    padding: 0;
+    &:checked{
+        box-shadow: 0 0 0 3px $color6;
+        color: red;
+    }
+
+    &:hover{
+        background: red;
+        color: red;;
+    }
 }
 
+.mailDisplay
+{
+    font-size: $font-large;
+    
+    i{
+        font-size: $font-larger;
+        display: inline;
+
+        border: 1px solid red;
+    }
+    h2{
+        display: inline;
+        border: 1px solid red;
+    }
+    img{
+        display: inline;
+        box-sizing: border-box;
+        border: 2px solid red;
+        width: $spacing-larger;
+        border-radius: 50%;
+    }
+}
