@@ -6380,7 +6380,7 @@ textarea {
 .wrapper {
   display: block;
   width: 1000px;
-  margin: 0 auto;
+  margin: 24px auto;
 }
 
 .grid {

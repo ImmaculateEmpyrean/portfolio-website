@@ -6380,7 +6380,7 @@ textarea {
 .wrapper {
   display: block;
   width: 1000px;
-  margin: 0 auto;
+  margin: 24px auto;
 }
 
 .grid {
@@ -6440,10 +6440,14 @@ textarea {
 }
 
 .sendButton {
+  transition: border-radius ease-out 0.1s;
+  position: relative;
+  overflow: hidden;
   width: 100%;
   background: transparent;
   color: #048ba8;
   border: none;
+  border-radius: 48px;
   margin: 16px 0;
   padding: 9.6px;
   font-size: 32px;
@@ -6452,6 +6456,39 @@ textarea {
 .sendButton:hover, .sendButton:focus {
   background-color: #de1a1a;
   color: #f6f4f3;
+  border-radius: 0;
+}
+.sendButton::after {
+  content: "";
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 1s;
+  background: white;
+}
+.sendButton:active::after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #ff3562;
+  border-radius: 36px;
+  background: black;
+  color: #f2d398;
+  font-family: "arial", "Work Sans";
+  padding: 9.6px;
+}
+
+input[type=radio] {
+  padding: 0;
 }
 
 /*# sourceMappingURL=contactMe-style.css.map */

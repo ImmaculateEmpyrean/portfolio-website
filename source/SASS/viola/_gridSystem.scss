@@ -4,7 +4,7 @@ $wrapperWidth: 1000px;
 .wrapper{
     display: block;
     width: $wrapperWidth;
-    margin: 0 auto;
+    margin: $spacing-normal auto; //maybe spacing normal in the future..
 }
 
 //the grid system is used to display stuff inside the website in question..
