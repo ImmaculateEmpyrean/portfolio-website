@@ -3,58 +3,24 @@
 
 .sendButton
 {
-    transition: border-radius ease-out 0.1s;
-    position: relative;
-    overflow: hidden;
+   @extend .flashy-button;
 
-    width: 100%;
-    background: transparent;
-    color: $color1;
+   width: 100%;
+   padding: $spacing-smaller;
+   margin: $spacing-normal 0;
 
-    border: none;
-    border-radius: $spacing-larger;
-    
-    margin : $spacing-small 0;
-    padding: $spacing-smaller;
+   font-size: $font-larger;
+   text-align: right;
+   color: $color1;
 
-    font-size: $font-larger;
-    text-align: right;
+   border: none;
+   background-color: $color3;
 
-    @include hocus
-    {
-        background-color: $color5;
-        color: $color4;
-
-        border-radius: 0;
-    }
-
-    &::after
-    {
-        content: '';
-        display: block;
-        position: absolute;
-
-        padding-top: 300%;
-        padding-left: 350%;
-        margin-left: -20px !important;
-        margin-top: -120%;
-        
-        opacity: 0;
-        transition: all 1s;
-
-        background: white;
-
-        
-    }
-
-    &:active::after{
-        padding: 0;
-        margin: 0;
-
-        opacity: 1;
-        transition: 0s;
-    }
-
+   @include hocus()
+   {
+       background-color: $color5;
+       color: $color4;
+   }
 }
 
 input
