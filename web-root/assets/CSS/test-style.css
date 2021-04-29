@@ -6485,13 +6485,27 @@ body {
 
 label {
   display: block;
+  position: relative;
   font-size: 20.8px;
-  font-family: "Work Sans";
   color: #f6f4f3;
-  border: 1px solid red;
   margin: 48px, 0;
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  padding-left: 48px;
+  text-align: right;
   background: #de1a1a;
+}
+label::before {
+  position: absolute;
+  content: "";
+  box-sizing: border-box;
+  border: 2px solid #f6f4f3;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  left: 1rem;
+  top: 1.3rem;
 }
 
 input[type=radio] {
@@ -6499,7 +6513,15 @@ input[type=radio] {
 }
 
 input[type=radio]:checked + label {
-  background: purple;
+  background: #048ba8;
+}
+
+input[type=radio] + label::before {
+  background: #f6f4f3;
+}
+
+input[type=radio]:checked + label::before {
+  background: #ff3562;
 }
 
 /*# sourceMappingURL=test-style.css.map */
