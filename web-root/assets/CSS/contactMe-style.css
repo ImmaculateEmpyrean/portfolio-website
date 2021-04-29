@@ -6473,6 +6473,47 @@ input {
   opacity: 1;
 }
 
+.fancy-radio + label {
+  display: block;
+  position: relative;
+  font-size: 20.8px;
+  color: #f6f4f3;
+  margin: 48px, 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  padding-left: 48px;
+  text-align: right;
+  background: #de1a1a;
+}
+.fancy-radio + label::before {
+  position: absolute;
+  content: "";
+  box-sizing: border-box;
+  border: 2px solid #f6f4f3;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  left: 1rem;
+  top: 1.3rem;
+}
+
+.fancy-radio {
+  display: none;
+}
+
+.fancy-radio:checked + label {
+  background: #048ba8;
+}
+
+.fancy-radio + label::before {
+  background: #f6f4f3;
+}
+
+.fancy-radio:checked + label::before {
+  background: #ff3562;
+}
+
 .spacer-normal {
   padding: 24px;
 }

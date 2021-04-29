@@ -1,0 +1,51 @@
+.fancy-radio+label{
+    display: block;
+    position: relative;
+
+    font-size: $font-large;
+    color: $color4;
+
+    margin: $spacing-larger,0;
+    
+    padding-top: $spacing-small;
+    padding-bottom: $spacing-small;
+    padding-right: $spacing-small;
+    padding-left: $spacing-larger;
+
+    text-align: right;
+
+    background: $color5;
+
+    &::before{
+        position: absolute;
+        content: '';
+
+        box-sizing: border-box;
+        border: 2px solid $color4;
+        border-radius: 50%;
+
+        width: 1rem;
+        height: 1rem;
+
+        left:1rem;
+        top: 1.3rem;
+
+    }
+}
+
+.fancy-radio{
+    display: none;
+}
+
+.fancy-radio:checked+label 
+{
+    background: $color1;
+}
+.fancy-radio+label::before 
+{
+    background: $color4;
+}
+.fancy-radio:checked+label::before 
+{
+    background: $color6;
+}

@@ -6473,17 +6473,7 @@ input {
   opacity: 1;
 }
 
-.spacer-normal {
-  padding: 24px;
-}
-
-body {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-}
-
-label {
+.fancy-radio + label {
   display: block;
   position: relative;
   font-size: 20.8px;
@@ -6496,7 +6486,7 @@ label {
   text-align: right;
   background: #de1a1a;
 }
-label::before {
+.fancy-radio + label::before {
   position: absolute;
   content: "";
   box-sizing: border-box;
@@ -6508,20 +6498,30 @@ label::before {
   top: 1.3rem;
 }
 
-input[type=radio] {
+.fancy-radio {
   display: none;
 }
 
-input[type=radio]:checked + label {
+.fancy-radio:checked + label {
   background: #048ba8;
 }
 
-input[type=radio] + label::before {
+.fancy-radio + label::before {
   background: #f6f4f3;
 }
 
-input[type=radio]:checked + label::before {
+.fancy-radio:checked + label::before {
   background: #ff3562;
+}
+
+.spacer-normal {
+  padding: 24px;
+}
+
+body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
 
 /*# sourceMappingURL=test-style.css.map */
