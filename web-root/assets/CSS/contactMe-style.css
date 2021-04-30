@@ -6404,7 +6404,7 @@ input {
   font-size: 16px;
   display: inline-block;
   width: 100%;
-  margin: 24px 0;
+  margin: 9.6px 0;
 }
 .col.one-half {
   width: 50%;
@@ -6532,33 +6532,34 @@ input {
   color: #f6f4f3;
 }
 
-input[type=radio]:checked {
-  box-shadow: 0 0 0 3px #ff3562;
-  color: red;
-}
-input[type=radio]:hover {
-  background: red;
-  color: red;
-}
-
-.mailDisplay {
+.credentials-display {
   font-size: 20.8px;
+  color: #f6f4f3;
 }
-.mailDisplay i {
-  font-size: 32px;
-  display: inline;
-  border: 1px solid red;
+.credentials-display i {
+  position: relative;
+  font-size: 48px;
+  display: inline-block;
+  color: #7289d9;
+  z-index: 0;
 }
-.mailDisplay h2 {
-  display: inline;
-  border: 1px solid red;
+.credentials-display i:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 2.3rem;
+  height: 2rem;
+  left: 0.3rem;
+  top: 0.4rem;
+  z-index: -1;
+  background: white;
 }
-.mailDisplay img {
-  display: inline;
-  box-sizing: border-box;
-  border: 2px solid red;
+.credentials-display h2 {
+  display: inline-block;
+}
+.credentials-display img {
+  display: inline-block;
   width: 48px;
-  border-radius: 50%;
 }
 
 /*# sourceMappingURL=contactMe-style.css.map */
