@@ -39,10 +39,3 @@ function onScrollHighSensitivity(callback)
 {
     onScrollFunctionsHighSensitivity.push(callback);
 }
-
-onScroll(function(){
-    console.log("low-sensitivity scroll");
-});
-onScrollHighSensitivity(function(){
-    console.log("high-sensitivity scroll");
-});

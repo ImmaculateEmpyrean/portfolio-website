@@ -1,23 +1,10 @@
-$onyx:               rgba(57, 61, 63, 1);
-$maximum-red:        rgba(222, 26, 26, 1);
-$cultured:           rgba(246, 244, 243, 1);
-$blue-munsell:       rgba(4, 139, 168, 1);
-$blue-crayola:       rgba(55, 114, 255, 1);
-$deep-champagne:     rgba(242, 211, 152, 1);
-$radical-red:        rgba(255, 53, 98, 1);
+$brilliant-rose: #fc60a8ff;
+$blue-gray: #809bceff;
+$white: #ffffffff;
+$black: #000000ff;
 
-//this is the main theme color of the website
-$color1: $blue-munsell;
-//a lighter version of the main theme
-$color2: $blue-crayola;
+$color1: $white; //predominant light color
+$color2: $black; //predominant dark color
 
-//standrad Dark and Light Colors
-$color3: black; //dark
-$color4: $cultured; //light
-
-//alternative theme color
-$color5: $maximum-red; //dark
-$color6: $radical-red; //light
-
-//odd color 
-$color7: $deep-champagne; //odd goldish color looks good on color6 for some reason?
+$color3: $brilliant-rose; //main theme
+$color4: $blue-gray;      //secondary color

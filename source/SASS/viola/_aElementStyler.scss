@@ -9,10 +9,10 @@
     border-radius: $spacing-larger;
 
     text-decoration: none;
-    color: $color7;
+    color: $color4;
 
     &:visited{
-        color: $color7;
+        color: $color4;
     }
    @include hocus()
    {
