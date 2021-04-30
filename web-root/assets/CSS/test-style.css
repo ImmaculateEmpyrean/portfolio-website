@@ -6518,10 +6518,33 @@ input {
   padding: 24px;
 }
 
-body {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+.top-menu {
+  display: block;
+}
+.top-menu img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.top-menu nav {
+  display: inline-block;
+}
+.top-menu nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.top-menu nav ul > li {
+  display: inline-block;
+  padding: 36px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.top-menu nav ul > li:hover {
+  background: #de1a1a;
 }
 
 /*# sourceMappingURL=test-style.css.map */

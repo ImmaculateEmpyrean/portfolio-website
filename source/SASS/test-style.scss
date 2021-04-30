@@ -1,8 +1,41 @@
 @import "base.scss";
 @import "viola/viola.scss";
 
-body{
-    position: absolute;
-    left: 50%;
-    top: 50%;
+.top-menu
+{
+    display: block;
+   
+    img{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+
+        box-sizing: border-box;
+        border: 1px solid red;
+    }
+
+    nav
+    {
+        display: inline-block;
+        ul
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            >li{
+                display: inline-block;
+
+                padding: $spacing-large;
+                font-size: $font-normal;
+
+                box-sizing: border-box;
+                border: 1px solid red;
+
+                &:hover{
+                    background: $color5;
+                }
+            }
+        }
+    }
 }
