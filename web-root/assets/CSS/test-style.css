@@ -6520,13 +6520,17 @@ input {
 
 .top-menu {
   display: block;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: transparent;
+  margin: 0;
+  padding: 0;
 }
 .top-menu img {
   width: 100%;
   height: auto;
   display: inline-block;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 .top-menu nav {
   display: inline-block;
@@ -6538,10 +6542,8 @@ input {
 }
 .top-menu nav ul > li {
   display: inline-block;
-  padding: 36px;
+  padding: 24px;
   font-size: 16px;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 .top-menu nav ul > li:hover {
   background: #de1a1a;

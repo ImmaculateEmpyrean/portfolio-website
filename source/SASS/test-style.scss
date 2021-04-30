@@ -4,14 +4,21 @@
 .top-menu
 {
     display: block;
-   
+    position: sticky;
+    top: 0;
+    z-index: 1000; //this must always be at the top
+    background: transparent;
+    
+    margin: 0;
+    padding: 0;
+
     img{
         width: 100%;
         height: auto;
         display: inline-block;
 
-        box-sizing: border-box;
-        border: 1px solid red;
+        //box-sizing: border-box;
+        //border: 1px solid red;
     }
 
     nav
@@ -26,11 +33,11 @@
             >li{
                 display: inline-block;
 
-                padding: $spacing-large;
+                padding: $spacing-normal;
                 font-size: $font-normal;
 
-                box-sizing: border-box;
-                border: 1px solid red;
+                //box-sizing: border-box;
+                //border: 1px solid red;
 
                 &:hover{
                     background: $color5;
