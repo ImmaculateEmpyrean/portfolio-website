@@ -1,6 +1,7 @@
 var onBeginFunctions = [];
 
-document.addEventListener("DOMContentLoaded",function(){
+document.addEventListener("DOMContentLoaded",function()
+{
     forEach(onBeginFunctions,function(callback){
         callback();
     });
@@ -18,7 +19,3 @@ function forEach(array,callback)
         callback(array[i]);
     }
 }
-
-onBegin(function(){
-    alert("hi");
-});
